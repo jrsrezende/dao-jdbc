@@ -58,8 +58,7 @@ public class SellerDaoJDBC implements SellerDao {
         try {
             st = conn.prepareStatement("UPDATE seller " +
                             "SET Name = ?, Email = ?, BirthDate = ?, BaseSalary = ?, DepartmentId = ? " +
-                            "WHERE Id = ?",
-                    Statement.RETURN_GENERATED_KEYS);
+                            "WHERE Id = ?", Statement.RETURN_GENERATED_KEYS);
             st.setString(1, obj.getName());
             st.setString(2, obj.getEmail());
             st.setTimestamp(3, Timestamp.valueOf(obj.getBirthDate().atStartOfDay())); //o banco está esperando um DATETIME
