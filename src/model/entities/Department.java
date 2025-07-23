@@ -41,4 +41,12 @@ public class Department implements Serializable {
     public int hashCode() {
         return id.hashCode();
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

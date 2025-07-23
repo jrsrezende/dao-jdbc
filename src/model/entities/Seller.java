@@ -68,4 +68,28 @@ public class Seller implements Serializable {
     public String toString() {
         return "Seller{" + "id=" + id + ", name='" + name + '\'' + ", email='" + email + '\'' + ", birthDate=" + birthDate + ", baseSalary=" + baseSalary + ", department=" + department + '}';
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public void setBaseSalary(Double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
 }
