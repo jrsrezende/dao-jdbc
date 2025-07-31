@@ -16,7 +16,7 @@
 
 ## 📁 Estrutura do Projeto
 
-- model/entities: Entidades do domínio (Seller, Department)
-- model/dao: Interfaces DAO
-- model/dao/implementation: Implementações JDBC dos DAOs
-- db: Gerenciamento de conexão e exceções do banco
+- `model/entities`: Entidades do domínio (Seller, Department)
+- `model/dao`: Interfaces DAO
+- `model/dao/implementation`: Implementações JDBC dos DAOs
+- `db`: Gerenciamento de conexão e exceções do banco
