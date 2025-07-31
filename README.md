@@ -1,4 +1,4 @@
-# 🚀 Gerenciamento de Vendedores Projeto Java para cadastro, consulta, atualização e remoção de vendedores e departamentos, utilizando JDBC para acesso ao banco de dados.
+# 🚀 CRUD de vendedores e departamentos, utilizando JDBC para acesso ao banco de dados.
 
 ## ✨ Funcionalidades
 
