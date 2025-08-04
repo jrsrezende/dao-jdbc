@@ -1,6 +1,6 @@
 # 💾 Projeto DAO JDBC
 
- Este projeto demonstra o uso do padrão DAO (Data Access Object) com JDBC em Java para realizar operações CRUD em um banco de dados relacional. Ele simula um sistema de gerenciamento de vendedores e departamentos.
+ Este projeto demonstra a implementação do padrão DAO (Data Access Object) em Java, utilizando JDBC para acesso a banco de dados MySQL. O objetivo é apresentar uma estrutura organizada para operações CRUD (Create, Read, Update, Delete) em entidades como Seller e Department.
 
 ## ✨ Funcionalidades
 
@@ -14,18 +14,21 @@
 ## 🛠️ Tecnologias Utilizadas
 
  - Java
- - JDBC
+ - JDBC (MySQL Connector)
  - SQL 
  - IntelliJ IDEA
- - MySQL Connector/J
 
 ## 🚀 Como executar
  1. Clone o repositório: git clone https://github.com/jrsrezende/dao-jdbc.git
- 2. Adicione o mysql-connector-j-8.4.0.jar ao classpath do projeto.
- 3. Configure o banco de dados:
+ 2. Configure o banco de dados:
      - Execute o script em src/sql/script.sql para criar as tabelas e inserir dados iniciais.
      - Ajuste as credenciais do banco em db.properties.
  4. Execute a classe src/application/Program.java.
 
-## 📁 Estrutura do projeto
-<img width="366" height="532" alt="Screenshot 2025-08-04 185701" src="https://github.com/user-attachments/assets/7f74d8e6-0a18-4054-a2fd-a51ec515b675" />
+## 📁 Camadas do projeto
+ - `application`: Contém as classes principais para execução e testes das operações.
+ - `model.entities`: Define as entidades do domínio (Seller, Department).
+ - `model.dao`: Interfaces DAO e fábrica de DAOs.
+ - `model.dao.implementation`: Implementações JDBC das interfaces DAO.
+ - `db`: Utilitários para conexão e tratamento de exceções do banco de dados.
+ - `sql`: Scripts SQL para criação e popularização do banco de dados.
