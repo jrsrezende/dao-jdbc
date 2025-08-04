@@ -21,10 +21,11 @@
 
 ## 🚀 Como executar
  1. Clone o repositório: git clone https://github.com/jrsrezende/dao-jdbc.git
- 2. Configure o banco de dados:
+ 2. Adicione o mysql-connector-j-8.4.0.jar ao classpath do projeto.
+ 3. Configure o banco de dados:
      - Execute o script em src/sql/script.sql para criar as tabelas e inserir dados iniciais.
      - Ajuste as credenciais do banco em db.properties.
- 3. Execute a classe src/application/Program.java.
+ 4. Execute a classe src/application/Program.java.
 
 ## 📁 Estrutura do projeto
 <img width="366" height="532" alt="Screenshot 2025-08-04 185701" src="https://github.com/user-attachments/assets/7f74d8e6-0a18-4054-a2fd-a51ec515b675" />
