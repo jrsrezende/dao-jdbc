@@ -2,15 +2,6 @@
 
  Este projeto demonstra a implementação do padrão DAO (Data Access Object) em Java, utilizando JDBC para acesso a banco de dados MySQL. O objetivo é apresentar uma estrutura organizada para operações CRUD (Create, Read, Update, Delete) em entidades como Seller e Department.
 
-## ✨ Funcionalidades
-
- - Buscar vendedor por ID
- - Buscar vendedores por departamento
- - Listar todos os vendedores
- - Inserir novo vendedor
- - Atualizar dados de um vendedor
- - Deletar vendedor por ID
-
 ## 🛠️ Tecnologias Utilizadas
 
  - Java
