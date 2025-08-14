@@ -2,7 +2,7 @@
 
  Este projeto demonstra a implementação do padrão DAO (Data Access Object) utilizando JDBC em Java para realizar operações CRUD em um banco de dados relacional. O sistema gerencia entidades de vendedores (Seller) e departamentos (Department), permitindo inserção, atualização, remoção e consulta de dados
 
-## 🛠Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
  - Java
  - MySQL Connector/J
