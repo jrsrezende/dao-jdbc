@@ -18,7 +18,7 @@ Projeto de exemplo para demonstração de acesso a banco de dados utilizando JDB
 - MySQL Connector/J
 
 ## Como executar
-1. Clone o repositório: https://github.com/seu-usuario/dao-jdbc.git
+1. Clone o repositório: https://github.com/jrsrezende/dao-jdbc.git
 2. Configure o banco de dados MySQL e execute o script em `src/sql/script.sql`.
 3. Atualize o arquivo `db.properties` com suas credenciais do banco.
 4. Adicione o driver MySQL \(`mysql-connector-j-8.4.0.jar`\) ao classpath do projeto.
