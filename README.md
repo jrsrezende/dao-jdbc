@@ -1,6 +1,5 @@
 # dao-jdbc
 
-## Descrição do projeto
 Projeto de exemplo para demonstração de acesso a banco de dados utilizando JDBC em Java, seguindo o padrão DAO \(Data Access Object\). O sistema gerencia entidades de vendedores \(`Seller`\) e departamentos \(`Department`\), permitindo operações CRUD e consultas relacionadas.
 
 ## Funcionalidades
